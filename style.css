@@ -1,0 +1,118 @@
+/* My First Website Style */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://www.w3schools.com/w3css/img_lights.jpg');
+    /* A classic beginner background image */
+    background-color: #f0f0f0;
+    margin: 0;
+    color: black;
+}
+
+/* Container to hold everything centered */
+.container {
+    background-color: white;
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid black;
+    /* Thick simple border */
+}
+
+/* Header */
+header {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
+h1 {
+    color: blue;
+    font-size: 50px;
+    margin: 0;
+}
+
+/* Navigation - Buttons look like boxes */
+nav {
+    margin-top: 20px;
+    background-color: yellow;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+nav a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 15px;
+    /* Removed hover animation */
+}
+
+nav a:hover {
+    text-decoration: underline;
+    /* Simple underline on hover */
+    background-color: white;
+}
+
+/* Sections */
+section {
+    margin: 30px 0;
+    padding: 10px;
+    border: 2px dashed gray;
+    /* Varied borders */
+}
+
+h2 {
+    color: green;
+    text-decoration: underline;
+}
+
+/* Images */
+img {
+    border: 5px solid gold;
+    margin: 10px;
+}
+
+.gallery-images img {
+    width: 200px;
+    height: 150px;
+    /* No consistent object-fit, beginner mistake/feature */
+}
+
+/* Services using floats instead of grid (old school/beginner) */
+.service-box {
+    width: 30%;
+    float: left;
+    background-color: #e0e0e0;
+    margin: 1.5%;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/* Clearfix for floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border: 2px solid black;
+    /* Removed hover animation */
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
